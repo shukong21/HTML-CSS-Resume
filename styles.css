@@ -1,0 +1,92 @@
+html{
+    height: 100vh;
+}
+body{
+    background-color: #EAEAEA;
+    height: 100vh;
+}
+.profilepicture{
+    border-radius: 5%;
+    border: 5px solid black;
+}
+
+.introduction{
+    background-color: #08D9D6;
+    border-bottom: 5px solid black;
+}
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+}
+p,li{
+    font-family: 'Sometype Mono', monospace;
+}
+.education{
+    background-color: #EAEAEA;
+    color: black;
+}
+
+.experience{
+    background-color: #FF2E63;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    color: #EAEAEA;
+}
+.skills{
+    padding-top: 5px;
+    background-color: #252A34;
+    color: #EAEAEA;
+    border-bottom: 5px solid black;
+}
+.certs{
+    background-color: #EAEAEA;
+    color:#252A34;
+    
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+#portfolioimg{
+    
+    border: 5px solid black;
+    height: 300px;
+    margin: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+    
+}
+
+
+.certs .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.certs img {
+    
+    height: 300px;
+   
+}
+
+
+.title{
+    border-bottom: 1px solid #252A34;
+}
+#certt{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #08D9D6;
+    color:#252A34;
+    margin-left: -1000px;
+    margin-right: -1000px;
+    border-top: 5px solid black;
+}
